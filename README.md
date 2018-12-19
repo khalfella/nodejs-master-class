@@ -1,3 +1,1 @@
-## NodeJS Master Class
-
-Homework Assignments
+## NodeJS Master Class - Assignments
