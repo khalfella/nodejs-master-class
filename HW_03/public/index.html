@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Online Pizza shop</title>
+		<script type="text/javascript" charset="utf-8" src="/public/app/login.js"></script>
+		<link rel="stylesheet" type="text/css" href="/public/assets/app.css" />
+
+	</head>
+
+	<body>
+
+
+
+	<div class="header">
+	<a class="logo" href="/"> <img src="/public/assets/logo.png" alt="Logo" /> </a>
+
+        <ul class="menu">
+          <li> <a href="/">Home</a> </li>
+          <li > <a href="/account/create">Signup</a> </li>
+        </ul>
+
+	</div>
+
+
+	<div class="content">
+		<h1>Login To Your Account</h1>
+		<h2>Enter your User Name and Password to login</h2>
+
+		<div class="formWrapper">
+			<form id="loginForm" action="/api/tokens" method="POST">
+				<div class="formError"></div>
+				<div class="inputWrapper">
+					<div class="inputLabel">User Name</div>
+					<input type="text" id="userName" name="userName"/>
+				</div>
+				<div class="inputWrapper">
+					<div class="inputLabel">Your Password</div>
+					<input type="password" id="password" name="password" placeholder="*********" />
+				</div>
+				<div class="inputWrapper ctaWrapper">
+					<button type="submit" class="cta blue">Login</button>
+				</div>
+			</form>
+		</div>
+	<div class="content">
+
+	</body>
+</html>
