@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "d401911c-0a19-11e9-97e5-8b03d4d144a4",
+    "name": "Neapolitan Pizza",
+    "description": "This delicious pie dates all the way back to 18th century in Naples, Italy",
+    "price": 20
+  },
+  {
+    "uuid": "0810b74e-0a1a-11e9-afb1-b75b5589da85",
+    "name": "Chicago Pizza    ",
+    "description": "Chicago pizza, also commonly referred to as deep-dish pizza, gets its name from the city it was invented in",
+    "price": 22
+  },
+  {
+    "uuid": "3c8cfa3c-0a1a-11e9-b0fe-675424e094ee",
+    "name": "New York Style Pizza",
+    "description": "While New York-style pizza isn’t exactly the original, it’s become the most popular and widespread choice in the United States",
+    "price": 27
+  }
+]

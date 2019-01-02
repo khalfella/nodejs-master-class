@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Online Pizza shop</title>
+		<script type="text/javascript" charset="utf-8" src="/public/app/order.js"></script>
+		<link rel="stylesheet" type="text/css" href="/public/assets/app.css" />
+
+	</head>
+
+	<body>
+
+
+
+	<div class="header">
+	<a class="logo" href="/"> <img src="/public/assets/logo.png" alt="Logo" /> </a>
+
+        <ul class="menu">
+          <li> <a href="/">Home</a> </li>
+          <li > <a href="/account/create">Signup</a> </li>
+        </ul>
+
+	</div>
+
+
+	<div class="content">
+		<h1>Create a new account</h1>
+		<h2>Fill the information below to create a new account</h2>
+		<h2 id=message color="red">This is a test</h2>
+
+		<div class="formWrapper">
+			<form id="orderForm" action="/api/tokens" method="POST">
+				<div class="inputWrapper ctaWrapper">
+					<table id="orderTable">
+						<tr>
+							<th>Item</th>
+							<th>Description</th>
+							<th>uuid</th>
+							<th>quantity</th>
+							<th>Unit price</th>
+							<th>Total price</th>
+						</tr>
+					</table>
+				</div>
+				<div class="inputWrapper ctaWrapper">
+					<button type="submit" class="cta blue">Place The Order</button>
+				</div>
+			</form>
+		</div>
+	<div class="content">
+
+	</body>
+</html>
