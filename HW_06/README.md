@@ -4,7 +4,7 @@
 
 How to run:
 ```
-node index.html
+node index.js
 ```
 
 In another terminal run the below command to test:
